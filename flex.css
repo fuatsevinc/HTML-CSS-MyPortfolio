@@ -2,7 +2,15 @@ body{
     background-color: #ddd;
     color: black;
 }
-,flex-items{
+.flex-conteiner{
+    display: flex;
+    background-color: blueviolet;
+    height: 400px;
+    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+}
+.flex-items{
     border: 1px solid green;
 padding: 5px;
 width: 75px;
@@ -10,9 +18,5 @@ height: 100px;
 background-color: aqua;
     
 }
-.flex-conteiner{
-    display: flex;
-    background-color: blueviolet;
-    height: 400px;
-}
+
 
