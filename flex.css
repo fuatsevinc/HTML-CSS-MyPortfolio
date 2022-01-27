@@ -6,9 +6,11 @@ body{
     display: flex;
     background-color: blueviolet;
     height: 400px;
-    flex-wrap: nowrap;
-    flex-wrap: wrap;
-    flex-wrap: wrap-reverse;
+    flex-basis: ;
+    /*flex-wrap: nowrap;
+      flex-wrap: wrap;
+      flex-wrap: wrap-reverse;
+    */
 }
 .flex-items{
     border: 1px solid green;
